@@ -4,16 +4,16 @@
     <h2> Movie ratings data analysis, using IMDB's depot and sklearn regression</h2>
 </div>
 
-### *A project to explore IMDB movie ratings data and quickely show what influences movie ratings. Approach:*
-1.	download IMDB data and store it in AWS s3 bucket
-2.	perform EDA and use only numerical data (to save time, one-hot encoding inflates the process)
-3.	do simple ML analysis (RF and variable importance) and show features and their relationship to ratings
-4.	provide guidelines for better/more accurate approaches
+### *A project to explore IMDB movie ratings data and quickly show what influences movie ratings. Approach:*
+1.  download IMDB data and store it in AWS s3 bucket
+2.  perform EDA and use only numerical data (to save time, one-hot encoding inflates the process)
+3.  do simple ML analysis (RF and variable importance) and show features and their relationship to ratings
+4.  provide guidelines for better/more accurate approaches
 
 ### About this repo   
 #### *A jupyter notebook (```IMDB_rating_analysis_primer.ipynb```) which performs the above procedures and provides figures and tables:*
 
-#### Packages neeeded:
+#### Packages needed:
 - sklearn
 - matplotlib
 - numpy
@@ -25,7 +25,7 @@
 !pip install s3fs
 ```
 
-### An example output (Feature importances with standard deviations):
+### An example output (Feature importance with standard deviations):
 
 <img src="assets/images/numerical_features_var_imp.png" style="display: block;
   margin-left: auto;
@@ -34,4 +34,4 @@
 
 ## Contributing and Permissions
 
-Please do not directly copy anything without my concent. Feel free to reach out to me at https://www.linkedin.com/in/mulugeta-semework-abebe/ for ways to collaborate or use some components.
+Please do not directly copy anything without my consent. Feel free to reach out to me at https://www.linkedin.com/in/mulugeta-semework-abebe/ for ways to collaborate or use some components.
